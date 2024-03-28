@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Profit Calculator</h1>
+        <label for="purchasePrice">
+          Purchase Price:
+          <input type="text" id="purchasePrice" name="purchasePrice" value="0" min="0" required>
+        </label>
+        <br>
+        <label for="sellingPrice">
+          Selling Price:
+          <input type="text" id="sellingPrice" name="sellingPrice" value="0" min="0" required>
+        </label>
+        <br>
+        <button id="calculateProfit">Calculate Profit</button>
+        <br>
+        <div id="profitMessage"></div>
+      </div>
+<script src="profit-loss.js"></script>
+</body>
+</html>
+

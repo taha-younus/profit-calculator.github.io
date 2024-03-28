@@ -1,0 +1,50 @@
+.calculator {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .calculator h1 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .calculator label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1em;
+  }
+  
+  .calculator input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+  
+  .calculator button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .calculator button:hover {
+    background-color: #45a049;
+  }
+  
+  .calculator #profitMessage {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
